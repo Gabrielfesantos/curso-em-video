@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../img/favicon_io/favicon.ico" type="image/x-icon">
+    <title>img</title>
+</head>
+
+<body>
+    <h1>TESTANDO CARGA DE IMAGENS</h1>
+    <ul>
+        <li>
+            <p>Segui a baixo a lodo do HTML5.</p>
+            <img src="../img/rsz_1html5-logo-small.png" alt="LOGO HTML5">
+        </li>
+
+        <li>
+            <p>Segui a logo do CSS3.</p>
+            <img src="../img/rsz_css3-logo-small.png" alt="LOGO CSS3">
+        </li>
+
+        <li>
+            <p>Segui a logo do JavaScript.</p>
+            <img src="https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0-140x140.png"
+                alt="LOGO JavaScript" width="256">
+        </li>
+    </ul>
+
+    <h2>TESTE COM favicon</h2>
+    <p>Favicon é o icone que fica na parte esquerda da aba de um site.</p>
+
+    <h2>Imagem Dinâmica</h2>
+    <p>Adicionando <i>imagens</i> que vão se <ins>adaptar</ins> a tela de qualquer <strong>dispositivo</strong> usado
+        para acessar esse <mark style="background-color: deeppink;">site</mark>.</p>
+
+    <!-- Utilizando (max-width) -->
+    <picture>
+        <source media="(max-width: 750px)" srcset="../img/kakashi-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="../img/kuchiyose-m.jpg" type="image/jpeg">
+
+        <img src="../img/hokages-g.jpg" alt="Imagem Relativa">
+    </picture>
+    <br>
+
+    <!-- Utilizando (min-width) -->
+    <picture>
+
+        <source media="(min-width: 900px)" srcset="../img/Toji-Geto-g.jpg" type="image/jpeg">
+
+        <source media="(min-width:600px )" srcset="../img/gojo-m.jpg" type="image/jpeg">
+
+        <img src="../img/toji-p.jpg" alt="Imagem Relativa 2">
+    </picture>
+    <hr>
+
+    <footer>
+        <a href="../index.html">TELA PRINCIPAL</a>
+    </footer>
+</body>
+
+</html>

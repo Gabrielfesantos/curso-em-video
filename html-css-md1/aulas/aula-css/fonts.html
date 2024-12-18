@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando Fonts</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300;400;500&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+        @font-face {
+            font-family: Honk;
+            src: url('../../fonts/Honk-Regular-VariableFont_MORF\,SHLN.ttf') format(truetype);
+        }
+
+        @font-face{
+            font-family: 'Zilla Slab';
+            src: url('../../fonts/ZillaSlabHighlight-Bold.ttf') format(truetype), url('../../fonts/ZillaSlabHighlight-Regular.ttf') format(truetype);
+        }
+
+        h1 {
+            font-family: 'Fredericka the Great';
+            font-size: 2em;
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        h2 {
+            font-family: Bangers;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 2em;
+        }
+
+        p {
+            font-family: Honk;
+            font-size: 1.5em;
+        }
+
+        .paragrafo2 {
+            font-family: 'Zilla Slab', Honk ;
+            font-weight: normal;
+            font-size: 1.5em;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Font do Google</h1>
+    <p>Essa forma de pegar e utilizar fonts externas, trata de apenas importar para as CSS uma font da web. Não precisando baixar a font para uma pasta dentro do site.</p>
+
+
+    <h2>Font Baixada</h2>
+    <p class="paragrafo2">Para usar fonts baixadas, é necessário criar uma pasta dentro do site e guardar o arquivo com a fonte na mesma. Para poder usar é necessário linkar o arquivo da font nas CSS.</p>
+
+</body>
+
+</html>
